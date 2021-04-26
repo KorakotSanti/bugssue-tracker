@@ -18,7 +18,14 @@ const ResponsiveOptions = css`
     display: flex;
     align-items: flex-end;
     font-size: 2rem;
-    justify-content: flex-end;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 400px) {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 2rem;
     cursor: pointer;
   }
 `;
@@ -64,6 +71,12 @@ export const Logo = styled(IconLogo)`
     height: 70px;
     padding: 25px;
   }
+  @media screen and (max-width: 400px) {
+    display: flex;
+    align-items: flex-start;
+    width: 30%;
+    height: 30%;
+  } 
 `;
 
 export const OptionsContainer = styled.div`
