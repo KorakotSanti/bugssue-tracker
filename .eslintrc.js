@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'prettier/prettier': ['off', {singleQuote: true}],
+    "@typescript-eslint/no-explicit-any": "off",
   },
   settings: {
     react: {
